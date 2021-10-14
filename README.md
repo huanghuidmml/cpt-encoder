@@ -12,6 +12,10 @@
 
 目前性能还未测试，第一个epoch看起来和roberta差不多。
 
+## 加载方式
+
+使用huggingface的transformers就可以加载，和BERT一样的方式。
+
 ## 转换代码
 
 见 [convert_cpt_to_bert.py](convert_cpt_to_bert.py)
